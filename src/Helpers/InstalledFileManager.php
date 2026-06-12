@@ -11,7 +11,7 @@ class InstalledFileManager
      * @return int
      */
     public function create()
-    {
+    { 
         file_put_contents(storage_path('installed'), '');
     }
 

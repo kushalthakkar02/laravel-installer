@@ -3,7 +3,7 @@
 [![Packagist License](https://poser.pugx.org/froiden/laravel-installer/license)]()
 [![Total Downloads](https://poser.pugx.org/froiden/laravel-installer/d/total)](https://packagist.org/packages/froiden/laravel-installer)
 
-Laravel Web installer checks for the following things and installs the application in one go.
+Laravel Web installer checks for the following things and install the application in one go.
 
 1. Check For Server Requirements.
 2. Check For Folders Permissions.
@@ -14,34 +14,14 @@ Laravel Web installer checks for the following things and installs the applicati
 ## Note:
 You need to have `.env` to the root
 
-
-
-# Installation
-
-1)  If you are running **Laravel 5 or above** :
-
+## Installation
+Require this package with composer:
 ```
-composer require froiden/laravel-installer:1.9.0
-```
-OR add this line to `composer.json`
-
-```
-"require": {
-    "froiden/laravel-installer": "1.9.0"
-}
-```
-2)  If you are running **Laravel 11 or above** :
-```
-composer require froiden/laravel-installer:11.0.0
-```
-OR add this line to `composer.json`
-```
-"require": {
-    "froiden/laravel-installer": "11.0.0"
-}
+composer require froiden/laravel-installer
 ```
 
-After updating the composer, add the ServiceProvider to the providers array in `config/app.php`.
+
+After updating composer, add the ServiceProvider to the providers array in `config/app.php`.
 
 ```
 'providers' => [
